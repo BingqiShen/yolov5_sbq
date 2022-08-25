@@ -1,0 +1,10 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+
+
+train: /media/thinking/thinking/kitti_yolo/images/training  # train images (relative to 'path') 7481 images
+val: /media/thinking/thinking/kitti_yolo/images/training  # train images (relative to 'path') 7519 images
+
+
+# Classes
+nc: 3  # number of classes
+names: ['Car', 'Pedestrian', 'Cyclist']  # class names
